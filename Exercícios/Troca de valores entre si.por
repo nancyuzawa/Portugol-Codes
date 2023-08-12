@@ -1,14 +1,17 @@
 programa {
   funcao inicio() {
-    inteiro a, b
+    inteiro a, b, temporario
     escreva("Digite um valor para 'a'\n")
     leia(a)
     escreva("Digite um valor para 'b'\n")
     leia(b)
     limpa()
-    escreva("Os valores digitados s„o:")
+    escreva("Os valores digitados s√£o:")
     escreva("\nValor de 'a' = ", a ,"\nValor de 'b' = ",b)
+    temporario = a
+    a = b
+    b = temporario
     escreva("\n\nTrocando entre si:")
-    escreva("\nValor de 'a' = ", b ,"\nValor de 'b' = ",a)
+    escreva("\nValor de 'a' = ", a ,"\nValor de 'b' = ",b)
   }
 }
