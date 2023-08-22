@@ -1,3 +1,5 @@
+//Calculando media aritmetica de dois números reais
+
 programa {
   funcao inicio() {
     real num1, num2, media
